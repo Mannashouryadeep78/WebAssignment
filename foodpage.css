@@ -1,0 +1,858 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+img#foodi{
+    flex-direction: column;
+    height: 30px;
+    width: 80px;
+}
+.heading{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+.food{
+    flex-direction: column;
+    width: 200px;
+}
+.home1{
+    color: rgb(21, 248, 25);
+    font-size: 20px;
+}
+.menu1{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.services1{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.offers1{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.searchbox{
+    margin-left: 150px;
+}
+img#search{
+    height: 30px;
+    width: 30px;
+}
+.eight{
+    margin-left: 20px;
+}
+img#eightt{
+    height: 25px;
+    width: 30px;
+}
+.contact{
+    margin-left: 40px;
+    display: flex;
+    height: 45px;
+    width: 140px;
+    background-color:  rgb(21, 248, 25);
+    border-radius: 25px;
+}
+.contact1{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+img#call{
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 22px;
+    width: 22px;
+}
+.flexbox1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px ;
+}
+.diveinto{
+    margin-top: 100px;
+    font-style: normal;
+    flex-direction: column;
+    height: 300px;
+    width: 550px;
+    background-color: white;
+}
+.firstline{
+    font-size: 50px;
+    font-style: normal;
+    font-family: poppins;
+}
+.secondline{
+    font-size: 60px;
+    color:  rgb(21, 248, 25);
+}
+.thirdline{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.bhoo{
+    margin-top: 50px;
+    display: flex;
+}
+button#but{
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    background-color: rgb(21, 248, 25);
+    border-color: rgb(21,248,25);
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px rgb(190, 240, 190);
+}
+.fifthline{
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 18px;
+}
+img#polygon1{
+    margin: 15px;
+    height: 20px;
+    width: 20px;
+}
+.playbutton{
+    margin-top: 7px;
+    margin-left: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px lightgray;
+}
+.foodgirl{
+    flex-direction: column;
+    height: 300;
+    width: 300px;
+}
+.customerfav{
+    color: red;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 40%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+img#group23{
+    margin-left: 60px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.piconpic1{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 70px;
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px lightgrey;
+    border-color: lightgray;
+    position: relative;
+    top: -50px;
+    left: 90px;
+}
+img#threestar{
+    height: 12px;
+    width: 70px;
+}
+img#firstpic{
+    margin: 5px;
+    height: 60px;
+    width: 60px;
+}
+.piconpic2{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 70px;
+    width: 220px;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px lightgrey;
+    border-color: lightgray;
+    position: relative;
+    top: -120px;
+    left: 350px;
+}
+img#fourstar{
+    height: 12px;
+    width: 70px;
+}
+img#secondpic{
+    margin: 5px;
+    height: 60px;
+    width: 60px;
+}
+
+.popularcategories{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 30%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.khana{
+    height: 300px;
+    background-color: white;
+    display: flex;
+}
+.khanaone{
+    margin: 50px;
+    height: 230px;
+    width: 200px;
+    background-color: white;
+    text-align: center;    
+    box-shadow: 0 10px 10px lightgray;
+    border-radius: 20px;
+}
+img#maindish{
+    height: 150px;
+    width: 175px;
+}
+.lineone{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.khanatwo{
+    margin: 50px;
+    height: 230px;
+    width: 200px;
+    background-color: white;
+    text-align: center;    
+    box-shadow: 0 10px 10px lightgray;
+    border-radius: 20px;
+}
+img#breakfast{
+    height: 150px;
+    width: 175px;
+}
+.linetwo{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.khanathree{
+    margin: 50px;
+    height: 230px;
+    width: 200px;
+    background-color: white;
+    text-align: center;    
+    box-shadow: 0 10px 10px lightgray;
+    border-radius: 20px;
+}
+img#desert{
+    height: 150px;
+    width: 175px;
+}
+.linethree{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.khanafour{
+    margin: 50px;
+    height: 230px;
+    width: 200px;
+    background-color: white;
+    text-align: center;    
+    box-shadow: 0 10px 10px lightgray;
+    border-radius: 20px;
+}
+img#browse{
+    height: 150px;
+    width: 175px;    
+}
+.linefour{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.specialdishes{
+    margin-left: 50px;
+    color: red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.specialstandout{
+    display: flex;
+}
+.standout{
+    width: 500px;
+    margin-left: 50px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.arrowone{
+    margin-left: 400px;
+    margin-top: 90px;
+}
+.arrowtwo{
+    margin-left: 50px;
+    margin-top: 90px;
+}
+.flexbox2{
+    display: flex;
+}
+.boxone{
+    border-radius: 20px;
+    box-shadow: 0 10px 10px lightgray;
+    margin: 50px;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    text-align: center;
+}
+.fattoush{
+    font-size: 20px;
+}
+.heart{
+    background-color:  rgb(21, 248, 25);
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -377px;
+    left: 252px;
+    border-top-right-radius: 20px ;
+    border-bottom-left-radius: 20px;
+}
+img#hearticon{
+    margin: 15px;
+    height: 20px;
+    width: 20px;
+}
+img#fatoush{
+    height: 300px;
+    width: 300px;
+}
+.descriptionone{
+    font-size: 10px;
+}
+.boxtwo{
+    border-radius: 20px;
+    box-shadow: 0 10px 10px lightgray;
+    margin: 50px;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    text-align: center;
+}
+.heart1{
+    background-color:  rgb(21, 248, 25);
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -377px;
+    left: 252px;
+    border-top-right-radius: 20px ;
+    border-bottom-left-radius: 20px;
+}
+img#hearticon1{
+    margin: 15px;
+    height: 20px;
+    width: 20px;
+}
+.vegetablee{
+    font-size: 20px;
+}
+.descriptiontwo{
+    font-size: 10px;
+}
+img#vegetable{
+    height: 300px;
+    width: 300px;
+}
+.boxthree{
+    border-radius: 20px;
+    box-shadow: 0 10px 10px lightgray;
+    margin: 50px;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    text-align: center;
+}
+.heart2{
+    background-color:  rgb(21, 248, 25);
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -377px;
+    left: 252px;
+    border-top-right-radius: 20px ;
+    border-bottom-left-radius: 20px;
+}
+img#hearticon2{
+    margin: 15px;
+    height: 20px;
+    width: 20px;
+}
+
+img#egg{
+    height: 300px;
+    width: 300px;
+}
+.descriptionthree{
+    font-size: 10px;
+}
+.egg{
+    font-size: 20px;
+}
+.flexbox3{
+    display: flex;
+}
+.kitchengirl{
+    height: 600px;
+    width: 600px;
+}
+img#group24{
+    margin-left: 60px;
+    height: 600px;
+    width: 500px;
+}
+.para2{
+    height: 600px;
+    width: 600px;
+}
+.testi{
+    color: red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.sayaboutus{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.ihadpleasure{
+    font-size: 20px;
+    color: gray;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.flexbox4{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photu{
+    margin-top: 50px;
+    margin-left: 30px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+img#maskgroup2{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+img#maskgroup4{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    
+}
+img#maskgroup3{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 0px;
+    left: 7px;
+}
+.customerfeed{
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+img#star1{
+    height: 15px;
+    width: 15px;
+}
+.rating{
+    font-size: 16px;
+}
+.reviews{
+    font-size: 16px;
+    color: grey;
+}
+.flexbox5{
+    display: flex;
+    height: 600px;
+}
+.ourstory{
+    height: 600px;
+    width: 600px;
+    margin: 50px;
+}
+.servicess{
+    width: 600px;
+    font-size: 20px;
+    color: red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+.ourculinary{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 30px;
+}
+.rootedin{
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+button#button2{
+    background-color:  rgb(21, 248, 25);
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    font-size: 15px;
+    color: white;
+}
+.flexbox5m{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+height: 500px;
+}
+.flexbox6{
+    display: flex;
+    width: 600px;
+    height: 250px;
+    flex-wrap: wrap;
+}
+.box1{
+    margin: 25px;
+    border-radius: 25px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 10px 10px lightgray;
+}
+img#star4{
+    margin-left: 50px;
+    height: 15px;
+    width: 15px;
+}
+img#saladicon{
+    margin-top: 20px;
+    margin-left: 73px;
+    height: 50px;
+    width: 50px;
+}
+.catering{
+    margin-top: 10px;
+    text-align: center;
+    color:  rgb(21, 248, 25);
+}
+.delightour{
+    margin-top: 10px;
+    text-align: center;
+    color:  rgb(21, 248, 25);
+}
+.box2{
+    margin: 25px;
+    border-radius: 25px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 10px 10px lightgray;
+}
+img#star3{
+    margin-left: 50px;
+    height: 15px;
+    width: 15px;
+}
+img#timefast{
+    margin-top: 20px;
+    margin-left: 73px;
+    height: 50px;
+    width: 50px;
+}
+.fastdelivery{
+    margin-top: 10px;
+    text-align: center;
+    color:  rgb(21, 248, 25);
+}
+.wedeliver{
+    margin-top: 10px;
+    text-align: center;
+    color:  rgb(21, 248, 25);
+}
+.flexbox7{
+    display: flex;
+    width: 600px;
+    height: 250px;
+    flex-wrap: wrap;
+    
+}
+.box3{
+    margin: 25px;
+    border-radius: 25px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 10px 10px lightgray;
+}
+img#star2{
+    margin-left: 50px;
+    height: 15px;
+    width: 15px;
+}
+img#online{
+    margin-top: 20px;
+    margin-left: 73px;
+    height: 50px;
+    width: 50px;
+}
+.ordering{
+    margin-top: 10px;
+    text-align: center;
+    color:  rgb(21, 248, 25);
+}
+.exploremenu{
+    margin-top: 10px;
+    text-align: center;
+    color:  rgb(21, 248, 25);
+}
+.box4{
+    margin: 25px;
+    border-radius: 25px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 10px 10px lightgray;
+}
+img#gift{
+    margin-top: 20px;
+    margin-left: 73px;
+    height: 50px;
+    width: 50px;
+}
+.giftcard{
+    margin-top: 10px;
+    text-align: center;
+    color:  rgb(21, 248, 25);
+}
+.givethe{
+    margin-top: 10px;
+    text-align: center;
+    color:  rgb(21, 248, 25);
+}
+.lastdiv{
+    display: flex;
+    justify-content: space-around;
+}
+.inner1{
+    height: 300px;
+    width: 200px;
+}
+img#foodi2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 30px;
+    width: 80px;
+}
+.savorthe{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 18px;
+}
+.inner2{
+    height: 300px;
+    width: 200px;
+}
+.usefullinks{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 18px;
+}
+.aboutus{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 18px;
+}
+.events{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 18px;
+}
+.blogs{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 18px;
+}
+.FAQ{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 18px;
+}
+.inner3{
+    height: 300px;
+    width: 200px;
+}
+.mainmenu{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 18px;
+}
+.home{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 18px;
+}
+.offers{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 18px;
+}
+.menu{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 18px;
+}
+.reservation{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 18px;
+}
+.inner4{
+    height: 300px;
+    width: 200px;
+}
+.contactus{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 18px;
+}
+.example{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 18px;
+}
+.phno{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 18px;
+}
+.socialmedia{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 18px;
+}
+.lastribbon{
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.facebook{
+    margin: 10px;
+    background-color:  rgb(21, 248, 25);
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;;
+}
+img#icon1{
+    margin: 8px;
+    height: 21px;
+    width: 14px;
+}
+.insta{
+    margin: 10px;
+    background-color: rgb(21, 248, 25);
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;}
+img#icon2{
+    margin: 8px;
+    height: 20px;
+    width: 20px;
+ }
+.twitter{
+    margin: 10px;
+    background-color:  rgb(21, 248, 25);
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;}
+img#icon3{
+    margin: 8px;
+    height: 20px;
+    width: 20px;
+ }
+.youtube{
+    margin: 10px;
+    background-color:  rgb(21, 248, 25);
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;}
+ img#icon4{
+    margin: 8px;
+    height: 20px;
+    width: 20px;
+ }
+.copyright{
+    margin-top: 15px;
+    margin-left: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 18px;
+}
+.copyrighticon{
+    display: flex;
+}
+img#icon5{
+    margin-left: 20px;
+    margin-top: 19px;
+    height: 15px;
+    width: 15px;
+}
+.Dscode{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 18px;
+}
